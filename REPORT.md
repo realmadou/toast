@@ -105,6 +105,14 @@ Hyperparameters were chosen based on standard practices:
 - Weight decay: 0.001  
 
 The goal was to maintain consistency and focus on comparing methodologies rather than performing extensive hyperparameter tuning.
+
+### 3.7 Optimization 
+
+The model was trained using the Adam optimizer with a learning rate of 0.001. Adam is an adaptive optimization algorithm that adjusts learning rates for each parameter based on gradient history.
+
+Compared to standard Stochastic Gradient Descent (SGD), Adam provides faster convergence and requires less manual tuning of hyperparameters.
+
+Early stopping was also applied as an optimization strategy to prevent overfitting and stop training at the optimal point.
 ## 5. Results
 
 | Model             | Train Accuracy | Validation Accuracy | Test Accuracy |
